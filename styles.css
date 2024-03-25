@@ -3,23 +3,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
 .navbar {
     background-color: #333;
     color: #fff;
-    padding: 20px;
     position: fixed;
     width: 100%;
     top: 0;
-    transition: top 0.3s;
-}
-
-.navbar.hidden {
-    top: -60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 .logo {
     height: 40px;
-    margin-right: 10px;
 }
 
 .title {
@@ -28,5 +32,5 @@ body {
 
 .content {
     padding: 20px;
-    margin-top: 120px; /* Ajustar según el tamaño de la barra superior */
+    margin-top: 80px; /* Ajustar según el tamaño de la barra superior */
 }
