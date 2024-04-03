@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index-style.css">
+    <link rel="icon" href="../IMG/icon.png">
+    <title>Register - WNG</title>
+</head>
+<body>
+
+    <img src="../IMG/logo2.png" class="logo">
+
+    <div class="container">
+        <h2>Registro</h2>
+        <form action="register.php" method="post">
+            <label for="register-nombre">Nombre:</label>
+            <input type="text" id="register-nombre" name="register-nombre" required>
+
+            <label for="register-apellido">Apellido:</label>
+            <input type="text" id="register-apellido" name="register-apellido" required>
+
+            <label for="register-usuario">Usuario:</label>
+            <input type="text" id="register-usuario" name="register-usuario" required>
+
+            <label for="register-correo">Correo Electrónico:</label>
+            <input type="email" id="register-correo" name="register-correo" required>
+
+            <label for="register-contrasena">Contraseña:</label>
+            <input type="password" id="register-contrasena" name="register-contrasena" required>
+            
+            </select>
+            <button type="submit">Registrarse</button>
+
+            <a href="../index.html">¿Tienes cuenta? ¡ Inicia sesion !</a>
+        </form>
+    </div>
+</body>
+</html>
